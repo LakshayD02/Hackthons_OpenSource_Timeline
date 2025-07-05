@@ -25,7 +25,7 @@ This project was created to:
 
 ## 🌐 Demo
 
-> [Live Demo](#) – *https://hackthons-timeline-lakshay.vercel.app/*
+> [Live Demo](#) – *https://hackathons-timeline-lakshay.vercel.app/*
 
 ---
 
