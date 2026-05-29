@@ -269,9 +269,13 @@
 
         </div>
 
-        <footer>
-            <p>© 2026 Lakshay Dhoundiyal | Hackathon Timeline</p>
+       <footer>
+            <p>© <span id="year"></span> Lakshay Dhoundiyal | Hackathon Timeline</p>
         </footer>
+        
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
     </div>
     <script src="script.js"></script>
 </body>
