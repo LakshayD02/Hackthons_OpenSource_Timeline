@@ -152,21 +152,19 @@
             padding: 3rem 0;
         }
 
-        /* Vertical line */
-        .timeline::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            width: 4px;
-            background: linear-gradient(to bottom, var(--accent), transparent);
-            border-radius: 2px;
-            transform: translateX(-50%);
-            z-index: 1;
-            height: 0;
-            transition: height 1.5s ease-out;
-        }
+       .timeline::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 50%;
+                width: 4px;
+                height: 0;
+                background: linear-gradient(to bottom, var(--accent), transparent);
+                border-radius: 2px;
+                transform: translateX(-50%);
+                z-index: 1;
+                transition: height 1.5s ease-out;
+            }
 
         .light-mode .timeline::before {
             background: linear-gradient(to bottom, var(--timeline-light), transparent);
@@ -231,7 +229,6 @@
             filter: brightness(1.05);
         }
 
-        /* Timeline circle - PERFECT ALIGNMENT */
         .timeline-entry::after {
             content: '';
             position: absolute;
